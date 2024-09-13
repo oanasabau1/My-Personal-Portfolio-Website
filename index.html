@@ -20,12 +20,12 @@
             color: #f8f9fa;
             text-align: center;
             padding: 100px 0;
-            background-color: #ff69b4; 
+            background-color: #ff69b4;
             font-family: 'Sue Ellen Francisco', cursive;
         }
 
         .btn-custom {
-            background-color: #ff69b4; 
+            background-color: #ff69b4;
             color: #f8f9fa;
             border-radius: 30px;
             padding: 10px 20px;
@@ -34,7 +34,7 @@
         }
 
         .btn-custom:hover {
-            background-color: #ff1493; 
+            background-color: #ff1493;
         }
 
         h1, h2, h3 {
@@ -43,7 +43,7 @@
         }
 
         footer {
-            background-color: #ff69b4; 
+            background-color: #ff69b4;
             color: #f8f9fa;
             padding: 20px 0;
             text-align: center;
@@ -69,6 +69,28 @@
         .card {
             border: 2px solid #ff69b4;
         }
+
+        @media (max-width: 767.98px) {
+            #hero {
+                padding: 60px 0;
+            }
+
+            h2.display-4 {
+                font-size: 2rem;
+            }
+
+            .btn-custom {
+                font-size: 1rem;
+            }
+
+            .list-group-horizontal {
+                flex-direction: column;
+            }
+
+            .list-group-item {
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 
@@ -91,7 +113,7 @@
     <!-- Hero Section -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="container text-center">
-            <h2 class="display-4">Hello there, I am Oana Sabau !</h2>
+            <h2 class="display-4">Hello there, I am Oana Sabau!</h2>
             <a href="#projects" class="btn btn-custom mt-3">View My Work</a>
         </div>
     </section>
@@ -100,7 +122,7 @@
     <section id="about" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">About Me</h2>
-            <p class="text-center">I am a Computer Science student aspiring to become a Software Engineer. Passionate about development and continuous learning.</p>
+            <p class="text-center">I’m a dedicated Computer Science student with a passion for software engineering and a constant drive for learning. I thrive on solving complex problems through code, and I’m always eager to explore the latest technologies. I aim to build impactful, innovative solutions that make a difference.</p>
         </div>
     </section>
 
@@ -112,26 +134,24 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h3 class="card-title" align="center">City Break Flask Website with Microservices</h3>
-                            <p class="card-text" align="center">City Break Application is a microservices-based system designed to streamline city break planning by providing information on city events and weather. Each component of the application operates as an independent microservice, allowing for scalable, maintainable, and loosely coupled systems.</p>
+                            <h3 class="card-title text-center">City Break Flask Website with Microservices</h3>
+                            <p class="card-text text-center">City Break Application is a microservices-based system designed to streamline city break planning by providing information on city events and weather. Each component of the application operates as an independent microservice, allowing for scalable, maintainable, and loosely coupled systems.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h3 class="card-title"  align="center">Traffic Sign Detection using Image Processing</h3>
-                            <p class="card-text"  align="center">
-                                This project aims to detect traffic sign using traditional image processing methods and algorithms such as Canny Edge detection, color-based detection, shapes detection, Douglas-Peucker's algorithm.</p>
+                            <h3 class="card-title text-center">Traffic Sign Detection using Image Processing</h3>
+                            <p class="card-text text-center">This project aims to detect traffic signs using traditional image processing methods and algorithms such as Canny Edge detection, color-based detection, shapes detection, Douglas-Peucker's algorithm.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
-                            <h3 class="card-title" align="center">Makeup Recommendation Website</h3>
-                            <p class="card-text" align="center">
-                                Designed and developed a full-stack application using Spring Boot and ReactJS for makeup product recommendations, implementing design patterns such as Factory and Builder, email functionality via Java Mail, user authentication with two types of users, where admin can create, update, delete products and export reports in different formats.</p>
+                            <h3 class="card-title text-center">Makeup Recommendation Website</h3>
+                            <p class="card-text text-center">Designed and developed a full-stack application using Spring Boot and ReactJS for makeup product recommendations, implementing design patterns such as Factory and Builder, email functionality via Java Mail, user authentication with two types of users, where admin can create, update, delete products and export reports in different formats.</p>
                         </div>
                     </div>
                 </div>
@@ -143,13 +163,12 @@
     <section id="skills" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">Skills</h2>
-            <ul class="list-group list-group-horizontal justify-content-center">
+            <ul class="list-group list-group-horizontal justify-content-center flex-wrap">
                 <li class="list-group-item">Java</li>
                 <li class="list-group-item">Spring Boot</li>
                 <li class="list-group-item">Python</li>
-                <li class="list-group-item">Cloud</li>
+                <li class="list-group-item">Cloud Computing</li>
                 <li class="list-group-item">AWS</li>
-                <li class="list-group-item">AI, ML & DL</li>
                 <li class="list-group-item">C/C++</li>
                 <li class="list-group-item">MySQL</li>
                 <li class="list-group-item">HTML/CSS</li>
@@ -165,7 +184,7 @@
             <h2 class="mb-4">Contact Me</h2>
             <p>If you’d like to discuss a project, see my other work, or just want to say hello, feel free to reach out!</p>
             <a href="mailto:oanasabau1@gmail.com" class="btn btn-custom mt-3">Email Me</a>
-            <a href="https://github.com/oanasabau1" class="btn btn-custom mt-3">GitHub Profile</a>
+            <a href="https://github.com/oanasabau1" class="btn btn-custom mt-3">My GitHub Profile</a>
         </div>
     </section>
 
